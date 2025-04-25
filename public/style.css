@@ -1,0 +1,115 @@
+/* General Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #5f97f8;
+}
+
+/* Book List Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+table, th, td {
+  border: 1px solid #dcdcdc;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #0e2e98;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #b6cfe8;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #98c2f2;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
+.btn-danger {
+  background-color: #76cf23;
+}
+
+.btn-danger:hover {
+  background-color: #201d6c;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-size: 18px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #881c1c;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+  padding: 12px 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e874b;
+}
